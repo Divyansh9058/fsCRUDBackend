@@ -1,14 +1,23 @@
 {
-  "name": "backend",
+  "name": "fscrudbackend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyansh9058/fsCRUDBackend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divyansh9058/fsCRUDBackend/issues"
+  },
+  "homepage": "https://github.com/Divyansh9058/fsCRUDBackend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
